@@ -1,0 +1,115 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #33aa9057;
+    margin: 0;
+    padding: 20px;
+}
+
+.logo{
+    clip-path: circle(50%);
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+h2{
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#kuny {
+     background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 9px 15px;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+#kuny:hover{
+    background-color: red;
+}
+
+td button {
+    border-radius: 30%;
+}
+button:hover {
+    background-color: #452188;
+}
+
+#clientForm {
+    display: flex;
+    flex-direction: column;
+}
+li {
+    list-style-type: none;
+    margin: 5px 0;
+    
+}
+.contact-esm{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+
+
+
+.social .social-ul{
+    display: flex;
+}
+.social-ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+.social-ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-ul a .youtube:hover{
+    color: red;
+    text-shadow: -1px 2px 1px black;
+}
+.social-ul a .facebook:hover{
+    color: blue;
+    text-shadow: -1px 2px 1px white;
+}
+.social-ul a .tiktok:hover{
+    color: aqua;
+    text-shadow: -2px 3px 2px red;
+}
+.social-ul a .instagram:hover{
+    color: mediumvioletred;
+    text-shadow: -1px 2px 1px yellow;
+}

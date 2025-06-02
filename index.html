@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESTAURANT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>BIENVENU CHEZ ESSANAM RESTAURANT</h1>
+    </header>
+    <main>
+        <section id="ticket-form">
+            <h2>Soumettre un nouveau ticket</h2>
+            <form id="new-ticket">
+                <label for="customer-name">votre nom:</label>
+                <input type="text" id="customer-name" required>
+                
+                <label for="issue">Résumé du problème:</label>
+                <textarea id="issue" required></textarea>
+                
+                <button type="submit">ok</button>
+                <a href="clien.html">suite</a>
+            </form>
+        </section>
+        <section id="ticket-list">
+            <h2>Ouvre les Tickets</h2>
+            <ul id="tickets"></ul>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>
